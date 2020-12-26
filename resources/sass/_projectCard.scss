@@ -1,0 +1,23 @@
+.card{
+    .icon-bar{
+        width: 100%;
+        background-color: #dff0d8;
+        opacity: 0.7;
+        z-index: 100;
+        position: absolute;
+        top: 0;
+
+        li{
+            float: right;
+            margin-right: .7em;
+            list-style: none;
+            .btn{ //此处是下节课所加
+                border: none;
+                padding: 0;
+            }
+            .fa-btn{
+                color: #d9534f;
+            }
+        }
+    }
+}
